@@ -25,3 +25,6 @@ day=365
 year=sec*min*hour*365
 
 print(year)
+
+print(Hello world)
+print"hello world"
