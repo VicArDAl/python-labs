@@ -16,3 +16,12 @@
 '''
 
 print("hello world")
+
+
+sec = 60
+min=60
+hour=24
+day=365
+year=sec*min*hour*365
+
+print(year)
