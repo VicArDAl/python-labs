@@ -1,0 +1,31 @@
+''''Trip Cost Calculator
+
+ Create a command-line program that follows the outlined specs.
+ Create a python script that asks a user questions in the command line. The script should follow the outlined specs.
+
+ ## Specs
+
+ Receive the following arguments from the user:
+
+ - kilometers to drive
+ - liters-per-kilometer usage of the car
+ - price per liter of fuel
+
+ Display the cost of the trip to the user in the console.
+ Calculate the cost of the trip and display it to the user in the console.
+
+Step 1. 815 km divided by 100 = 8.15.
+Step 2. 8.15 multiplied by 9 (litres per 100km) = 73.35.
+Step 3. 73.35 multiplied by $1.50 (per litre) = $110.
+ '''
+
+k=float(input("How many kilometers are you going to travel"))
+print("\n", k)
+lok=float(input("How many liters of fuel the car use in one kilometer"))
+print("\n",lok)
+pf=float(input("How much cost a liter of fuel"))
+print("\n", pf)
+
+result=k*lok*pf
+
+print("The cost of the fuel road trip: ", result)
