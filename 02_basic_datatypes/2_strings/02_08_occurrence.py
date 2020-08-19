@@ -7,3 +7,7 @@ Letter input: o
 Result: 4
 
 '''
+
+string=str(input("Write a script:\n"))
+letter=str(input("letter to find:\n"))
+print(string.find(letter))

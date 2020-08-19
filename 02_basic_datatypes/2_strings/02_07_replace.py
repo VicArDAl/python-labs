@@ -8,3 +8,6 @@ Result: #ore python progra##ing please
 
 '''
 
+string=str(input("Write a scripte\n"))
+symbol=str(input("Select a symbol\n"))
+print(string.replace(string[0], symbol))
