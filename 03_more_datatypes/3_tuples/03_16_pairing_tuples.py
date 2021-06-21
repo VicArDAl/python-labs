@@ -11,3 +11,12 @@ Note: This lab might be challenging! Make sure to discuss it with your mentor
 or chat about it on our forum.
 
 '''
+lst=[]
+a=True
+while a == True:
+    num=input("write a number")
+    if a=="esc":
+        break
+    else:
+        lst.append(num)
+print(lst)

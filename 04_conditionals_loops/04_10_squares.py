@@ -5,3 +5,7 @@ Use a for loop that demonstrates the use of the range function.
 
 '''
 
+num=50
+for i in range(1,50):
+    squares=i*i
+    print(squares)

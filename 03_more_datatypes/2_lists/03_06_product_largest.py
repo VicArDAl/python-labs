@@ -9,3 +9,22 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+
+
+count =0
+list=[]
+product=1
+
+while count < 10:
+    number=int(input("introduce a number "))
+    list.append(number)
+    list.sort()
+    count+=1
+
+for i in list:
+    product*=i
+
+
+print("the largest number is: ", list[-1])
+print("the product of the list is: ", product)
+print(list)

@@ -2,9 +2,9 @@
 CLASSES AND INHERITANCE
 =======================
 
-1) Define an empty Movie class.
+#1) Define an empty Movie class.
 
-2) Add a dunder init method that takes two arguments "year" and "title"
+#2) Add a dunder init method that takes two arguments "year" and "title"
 
 3) Create a sub-class called "RomCom" that inherits from the Movie class
 
@@ -18,3 +18,24 @@ CLASSES AND INHERITANCE
     Any class attributes you could add?
 
 '''
+
+class Movie():
+
+    def __init__(self, year, title):
+        self.year = year
+        self.title = title
+
+class RomCom(Movie):
+    pass
+
+class ActionMovie(Movie):
+
+    def __init__(self, year, tittle, pg=13):
+        super().__init__(year, tittle)
+        self.pg = pg
+
+    def __str__(self):
+        return {self.pg}
+
+movie = ActionMovie(2005, "TALES OF NARNIA")
+print(movie.year, movie.title, movie.pg)

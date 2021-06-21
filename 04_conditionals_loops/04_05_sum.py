@@ -7,3 +7,10 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+num1=int(input("Write a number"))
+num2=int(input("Write another number"))
+count=0
+for i in range(num1,num2+1):
+    count=count+i
+
+print(count)

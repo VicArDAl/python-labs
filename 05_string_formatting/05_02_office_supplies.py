@@ -25,3 +25,11 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+office_list={}
+print(sorted(office.keys()))
+"""for i in office:
+    sep_full_name = i['full_name'].split()
+    name=sep_full_name[0]
+    Lastname=sep_full_name[1]
+    print(Lastname)
+    print(len(Lastname) > 0)"""

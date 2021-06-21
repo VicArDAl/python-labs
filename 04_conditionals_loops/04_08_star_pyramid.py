@@ -17,3 +17,10 @@ Another example: if input is 3, you will output
 Hint: Think of nested for loops
 
 '''
+
+n=int(input("write a number"))
+count=0
+while n >=1:
+    n = n-1
+    count+=1
+    print('*'*count)

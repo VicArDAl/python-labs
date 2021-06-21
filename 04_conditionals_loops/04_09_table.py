@@ -8,3 +8,15 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+
+n=50
+count=0
+for i in range(50):
+    count+=1
+    if count<10:
+        #Permite imprimir en una misma linea multiples elementos en diferentes momentos
+        print(i, end=' ')
+    else:
+        count=0
+        print(i)
+
